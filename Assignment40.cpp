@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -18,18 +17,6 @@ int main()
 
     area = length * width;
 
-    if (length * width < 0)
-    {
-       cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
-        cout<< ""<<endl;
-    }
-
-    else if (length == width)
-    {
-        cout<< "That's actually a square, not a rectangle. Anyways the area is "<<area<< "."<<endl;
-        cout<< ""<<endl;
-    }
-
     if (length<0)
     {
         cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
@@ -41,7 +28,14 @@ int main()
         cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
         cout<< ""<<endl;
     }
-else
+    else if (length == width)
+    {
+        cout<< "That's actually a square, not a rectangle. Anyways the area is "<<area<< "."<<endl;
+        cout<< ""<<endl;
+    }
+
+
+else if (length >0)
 {
     cout<< "The area of the rectangle is " <<area<< "."<<endl;
     cout<< ""<<endl;
