@@ -20,7 +20,7 @@ int main()
 
     if (length * width < 0)
     {
-        cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
+       cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
         cout<< ""<<endl;
     }
 
@@ -30,6 +30,17 @@ int main()
         cout<< ""<<endl;
     }
 
+    if (length<0)
+    {
+        cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
+        cout<< ""<<endl;
+    }
+
+    if (width<0)
+    {
+        cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
+        cout<< ""<<endl;
+    }
 else
 {
     cout<< "The area of the rectangle is " <<area<< "."<<endl;
