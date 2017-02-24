@@ -17,7 +17,7 @@ int main()
 
     if (radius <0)
         {
-            cout<< "You have chosen an invalid input. Lengths cannot have a negative value."<<endl;
+            cout<< "You have chosen an invalid input. Lengths must have a positive value."<<endl;
             cout<< ""<<endl;
 
         }
@@ -31,6 +31,13 @@ int main()
     cout<< ""<<endl;
 
 }
+
+else
+   {
+
+    cout<< "You have chosen an invalid input. Length cannot be 0."<<endl;
+    cout<< ""<<endl;
+   }
 
 cout<< "Program will now terminate."<<endl;
 cout<< "Restart to try again. Thank you."<<endl;
