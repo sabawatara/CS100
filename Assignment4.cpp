@@ -19,13 +19,13 @@ int main()
 
     if (length<0)
     {
-        cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
+        cout<< "Sorry your input is invalid. Please try again with positive values for length."<<endl;
         cout<< ""<<endl;
     }
 
     if (width<0)
     {
-        cout<< "Sorry your input is invalid. Please try again with positive values."<<endl;
+        cout<< "Sorry your input is invalid. Please try again with positive values for width."<<endl;
         cout<< ""<<endl;
     }
     else if (length == width)
